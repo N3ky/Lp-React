@@ -69,7 +69,7 @@ footer a img:hover{
 }
 
 .s1{
-    background-image: url(./fundo1.jpg);
+    background-image: url(/fundo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -233,7 +233,7 @@ button:hover{
     border-radius: 0px;
     }
     .s1{
-        background-image: url(./mobilefundo.jpg);
+        background-image: url(/mobilefundo.jpg);
     }
 
 }
