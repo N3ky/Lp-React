@@ -35,7 +35,10 @@ body{
     opacity: 0.7;
     transition: all 200ms ease-in-out;
 }
-
+.navWords:hover{
+    color: #33334a;
+    transition: ease 0.2s;
+}
 .navItems:hover{
     opacity: 1;
     cursor: pointer;
@@ -69,7 +72,7 @@ footer a img:hover{
 }
 
 .s1{
-    text-align: center;
+    width: 100%;
     background-image: url(/fundo1.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -78,7 +81,6 @@ footer a img:hover{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 50px;
     display: flex;
 }
 .s1 h1{
@@ -86,7 +88,6 @@ footer a img:hover{
     color: white;
     text-transform: uppercase;
     text-shadow: 0px 3px 10px black;
-    width: 100%;
     text-align: center;
     padding: 3vw;
     animation: esquerda 2s ease-in-out;
@@ -219,7 +220,8 @@ button:hover{
     }
 @media(width <= 800px){
     nav{
-    height: 60px;
+    position: fixed;
+    height: 50px;
     gap: 5vw;
     }
     .navItems img{
@@ -235,6 +237,9 @@ button:hover{
     }
     .s1{
         background-image: url(/mobilefundo.jpg);
+    }
+    .s1 h1{
+            padding: 40px;
     }
 
 }

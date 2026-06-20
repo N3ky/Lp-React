@@ -17,21 +17,9 @@ body {
     position: relative;
 }
 
-/* Optional: Add a subtle pattern overlay */
-body::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: radial-gradient(circle at 20% 50%, rgba(255,255,255,0.1) 0%, transparent 50%);
-    pointer-events: none;
-}
 
 h1 {
     width: 100%;
-    text-align: center;
     margin-top: 0;
     margin-bottom: 30px;
     font-size: 2.5rem;
@@ -156,14 +144,15 @@ button:active {
     }
     
     h1 {
-        font-size: 1.8rem;
+        font-size: 50px;
         margin-bottom: 20px;
     }
     
     div {
-        width: 280px;
+        width: 100%;
         min-height: 340px;
         padding: 20px 15px;
+        justify-content: center;
     }
     
     button {

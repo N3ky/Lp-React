@@ -42,8 +42,8 @@ function App() {
     </nav>
     <main>
         <section id="s1" className="s1" > 
-                <h1>Titulo do Banner</h1>
-                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+                <h1>Crie e Comparta seu desenhos</h1>
+                <h2>Compartilhe suas artes em um lugar seguro....</h2>
         </section>
         <section id="s3" className="s3"> 
             <div className="card">
